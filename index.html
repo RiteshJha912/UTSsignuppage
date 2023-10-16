@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Gluten:wght@300&family=Lobster&family=Lobster+Two&family=Love+Ya+Like+A+Sister&family=Quicksand:wght@600;700&family=Tenor+Sans&family=Yatra+One&display=swap"
+    rel="stylesheet">
+<body>
+    
+
+
+    <section id="subscribe">
+        <h1 class="h-primary center">Welcome To Dummyname</h1>
+        <h1 class="h-secondary center">Sign up for new users</h1>
+        <div id="subscribe-box">
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name : </label>
+                    <input type="text" name="name" id="name" placeholder="Enter Full name" pattern="{1-1000}" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Case Number : </label>
+                    <input type="tel" name="num" id="num" placeholder="Enter 16 digit CNR" pattern="[0-9]{16}" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Create Password : </label>
+                    <input type="tel" name="num" id="num" placeholder="Create a strong alphanumeric password" pattern="{20}" required>
+                </div>
+                <div class="formgroup">
+                    <input class="btn" type="reset" value="Clear">
+                    <input class="btn" type="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
